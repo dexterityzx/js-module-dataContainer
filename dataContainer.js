@@ -82,6 +82,7 @@ var dataContainer = (function() {
 }());
 
 
+/* example
 dataContainer.addData('key1',{'a':10,'b':20});
 dataContainer.addData('key1',{'a':100,'b':200});
 dataContainer.addData('key1',{'a':1000,'b':2000});
@@ -92,3 +93,4 @@ dataContainer.addData('key2',{'c':'c3','d':'d3'});
 
 console.log(dataContainer.getData('key1'))
 console.log(dataContainer.getData('key1',0))
+*/
