@@ -58,7 +58,7 @@ var dataContainer = (function() {
 		}
 	}
 
-	publicMethods.deployInput = function(key, inputId, version){
+	publicMethods.deployInput = function(inputId, key, version){
 		var data = this.getData(key, version);
 		if( typeof data === "string" || 
 			typeof data === "number" ||  
